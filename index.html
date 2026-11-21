@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sanatana Jnana — explore Vishnu Sahasranama, Bhagavad Gita, Ramayana, Mahabharata and spiritual wisdom in Telugu, English and Hindi.">
+  <meta name="theme-color" content="#7b3f16">
+  <title>Sanatana Jnana | Wisdom for Every Generation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#home" aria-label="Sanatana Jnana home"><span class="brand-mark">ॐ</span><span>Sanatana <b>Jnana</b><small>Ancient wisdom • Everyday life</small></span></a>
+  <nav id="mainNav" class="nav">
+    <a href="#learn" data-i18n="navLearn">Learn</a><a href="#daily" data-i18n="navDaily">Daily wisdom</a><a href="#about" data-i18n="navAbout">About</a>
+  </nav>
+  <div class="header-actions">
+    <label class="sr-only" for="language">Choose language</label>
+    <select id="language" aria-label="Choose language"><option value="te">తెలుగు</option><option value="en" selected>English</option><option value="hi">हिन्दी</option></select>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-content">
+    <span class="eyebrow" data-i18n="heroEyebrow">TIMELESS KNOWLEDGE • MEANINGFUL LIVING</span>
+    <h1 data-i18n="heroTitle">Wisdom for<br><em>Every Generation.</em></h1>
+    <p data-i18n="heroText">Explore the timeless teachings of Sanatana Dharma through simple explanations, meaningful stories and practical lessons.</p>
+    <div class="hero-buttons"><a class="btn btn-primary" href="#learn" data-i18n="explore">Explore teachings <span>→</span></a><a class="btn btn-outline" href="#daily" data-i18n="dailyButton">Today's wisdom</a></div>
+    <div class="hero-note"><span>✦</span> <span data-i18n="heroNote">Learn at your own pace. Return to wisdom every day.</span></div>
+  </div>
+  <div class="hero-art" role="img" aria-label="Decorative illustration of a lotus and sacred geometry">
+    <div class="sun-glow"></div><div class="mandala">✺</div><div class="lotus">❀</div><div class="om-symbol">ॐ</div>
+    <div class="art-caption"><span>ज्ञानम्</span><span>•</span><span>भक्तिः</span><span>•</span><span>धर्मः</span></div>
+  </div>
+</section>
+
+<section class="trust-strip"><div><strong>3</strong><span data-i18n="languages">Learning languages</span></div><div><strong>5+</strong><span data-i18n="paths">Learning paths</span></div><div><strong>∞</strong><span data-i18n="wisdom">Timeless wisdom</span></div></section>
+
+<section class="section" id="learn">
+  <div class="section-heading"><div><span class="eyebrow" data-i18n="discoverEyebrow">EXPLORE THE SCRIPTURES</span><h2 data-i18n="discoverTitle">Choose your learning path</h2></div><p data-i18n="discoverText">Start with a text that speaks to you. Learn one idea at a time.</p></div>
+  <div class="learning-grid">
+    <article class="learning-card featured"><div class="card-icon">ॐ</div><span class="card-tag" data-i18n="featured">FEATURED PATH</span><h3 data-i18n="vishnuTitle">Vishnu Sahasranama</h3><p data-i18n="vishnuDesc">Explore the thousand names of Lord Vishnu with word meanings, reflections and simple explanations.</p><a href="#vishnu" class="text-link" data-i18n="startLearning">Start learning →</a></article>
+    <article class="learning-card"><div class="card-icon">गी</div><h3 data-i18n="gitaTitle">Bhagavad Gita</h3><p data-i18n="gitaDesc">Understand the conversation between Krishna and Arjuna, chapter by chapter.</p><a href="#gita" class="text-link" data-i18n="explorePath">Explore path →</a></article>
+    <article class="learning-card"><div class="card-icon">राम</div><h3 data-i18n="ramTitle">Ramayana</h3><p data-i18n="ramDesc">Discover stories of courage, devotion, relationships and Dharma.</p><a href="#stories" class="text-link" data-i18n="explorePath">Explore path →</a></article>
+    <article class="learning-card"><div class="card-icon">ध</div><h3 data-i18n="mahaTitle">Mahabharata</h3><p data-i18n="mahaDesc">Reflect on choices, duty, leadership and the complexity of life.</p><a href="#stories" class="text-link" data-i18n="explorePath">Explore path →</a></article>
+    <article class="learning-card"><div class="card-icon">उ</div><h3 data-i18n="upaTitle">Upanishads</h3><p data-i18n="upaDesc">Begin exploring profound questions about the self and ultimate reality.</p><a href="#stories" class="text-link" data-i18n="explorePath">Explore path →</a></article>
+    <article class="learning-card daily-card"><div class="card-icon">✦</div><h3 data-i18n="dailyTitle">Daily spiritual learning</h3><p data-i18n="dailyDesc">A short teaching, reflection or story to carry into your day.</p><a href="#daily" class="text-link" data-i18n="readToday">Read today's lesson →</a></article>
+  </div>
+</section>
+
+<section class="lesson-section" id="vishnu">
+  <div class="lesson-intro"><span class="eyebrow" data-i18n="firstLesson">YOUR FIRST LESSON</span><h2 data-i18n="vishnuLessonTitle">Vishnu Sahasranama</h2><p data-i18n="vishnuLessonIntro">A traditional hymn of a thousand names of Lord Vishnu. Begin with its opening verse and explore the meaning step by step.</p><a class="btn btn-primary" href="vishnu-sahasranama.html" data-i18n="openCollection">Open learning collection →</a></div>
+  <div class="verse-card">
+    <span class="verse-label" data-i18n="openingVerse">OPENING VERSE • 1</span>
+    <div class="sanskrit">विश्वं विष्णुर्वषट्कारो भूतभव्यभवत्प्रभुः ।<br>भूतकृद्भूतभृद्भावो भूतात्मा भूतभावनः ॥</div>
+    <div class="verse-divider"></div>
+    <p data-i18n="verseMeaning">A traditional opening verse that praises Vishnu as the universe, its sustaining presence, the source of beings and the inner Self of all.</p>
+    <span class="source-note" data-i18n="verseNote">Meaning is an introductory summary; translations and commentarial traditions may vary.</span>
+  </div>
+</section>
+
+<section class="section gita-section" id="gita">
+  <div class="section-heading"><div><span class="eyebrow" data-i18n="wisdomInAction">WISDOM IN ACTION</span><h2 data-i18n="gitaSpotTitle">A teaching from the Gita</h2></div><p data-i18n="gitaSpotText">A timeless reminder to act with care while letting go of attachment to results.</p></div>
+  <div class="gita-quote"><div class="quote-mark">“</div><div><span class="verse-label">BHAGAVAD GITA • 2.47</span><div class="sanskrit">कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।</div><p data-i18n="gitaMeaning">Your responsibility is to action, not to claim control over its results. This verse invites sincere effort without becoming consumed by outcomes.</p><a class="text-link" href="bhagavad-gita.html" data-i18n="readGita">Explore Bhagavad Gita →</a></div></div>
+</section>
+
+<section class="daily-section" id="daily"><div class="daily-inner"><span class="eyebrow" data-i18n="pauseReflect">PAUSE • REFLECT • PRACTISE</span><h2 data-i18n="dailyHeading">Carry one good thought into today.</h2><p data-i18n="dailyBody">Knowledge becomes meaningful when it shapes how we think, speak and act.</p><div class="daily-prompt" data-i18n="dailyPrompt">Today's reflection: What is one action you can do sincerely, without expecting praise?</div></div></section>
+
+<section class="section about-section" id="about"><div><span class="eyebrow" data-i18n="ourPurpose">OUR PURPOSE</span><h2 data-i18n="aboutTitle">Ancient texts. Clear explanations. Thoughtful learning.</h2></div><p data-i18n="aboutText">Sanatana Jnana is an independent learning initiative created to make spiritual and philosophical ideas easier to explore in Telugu, English and Hindi. We aim to explain respectfully, distinguish source text from interpretation, and encourage readers to study original traditions.</p></section>
+</main>
+
+<footer class="footer"><div class="footer-brand"><span class="brand-mark">ॐ</span><div><strong>Sanatana Jnana</strong><small data-i18n="footerLine">A space for learning and reflection</small></div></div><div class="footer-links"><a href="about.html" data-i18n="aboutLink">About</a><a href="privacy.html" data-i18n="privacyLink">Privacy</a><a href="disclaimer.html" data-i18n="disclaimerLink">Disclaimer</a><a href="contact.html" data-i18n="contactLink">Contact</a></div><p>© <span id="year"></span> Sanatana Jnana. <span data-i18n="rights">All rights reserved.</span></p><p class="footer-note" data-i18n="footerNote">Educational and spiritual learning resource. Interpretations may differ across traditions.</p></footer>
+<script src="script.js"></script>
+</body></html>
